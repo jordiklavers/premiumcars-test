@@ -1,10 +1,9 @@
-import { gsap } from "gsap";
-import { CustomEase } from "gsap/CustomEase";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import SplitType from "split-type";
 import $ from "jquery";
 
-gsap.registerPlugin(ScrollTrigger, CustomEase);
+gsap.registerPlugin(ScrollTrigger);
 
 initFunctions();
 
@@ -13,6 +12,7 @@ console.log("Hello World");
 function initFunctions() {
   initScrollTriggerAnimations();
 }
+
 
 function initScrollTriggerAnimations() {
   // Split text into words and chars
