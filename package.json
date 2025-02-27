@@ -1,0 +1,19 @@
+{
+  "name": "premiumcars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --watch --bundle --minify --outfile=dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "esbuild": "0.25.0"
+  },
+  "dependencies": {
+    "gsap": "^3.12.7",
+    "jquery": "^3.7.1",
+    "split-type": "^0.3.4"
+  }
+}
