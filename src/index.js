@@ -9,6 +9,8 @@ initFunctions();
 
 console.log("Hello World");
 
+console.log("test goes here")
+
 function initFunctions() {
   initScrollTriggerAnimations();
 }
